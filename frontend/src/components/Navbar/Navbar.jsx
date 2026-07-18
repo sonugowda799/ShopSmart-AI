@@ -1,4 +1,5 @@
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -6,11 +7,11 @@ function Navbar() {
       <div className="logo">🛒 ShopSmart AI</div>
 
       <ul className="nav-links">
-        <li>Home</li>
-        <li>Products</li>
-        <li>Categories</li>
-        <li>Cart</li>
-        <li>Login</li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/products">Products</Link></li>
+        <li><Link to="/cart">Cart</Link></li>
+        <li><Link to="/wishlist">Wishlist</Link></li>
+        <li><Link to="/login">Login</Link></li>
       </ul>
     </nav>
   );

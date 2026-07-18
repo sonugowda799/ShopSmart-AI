@@ -1,13 +1,19 @@
+import Hero from "../../components/Hero/Hero";
+import SearchBar from "../../components/SearchBar/SearchBar";
+import Categories from "../../components/Categories/Categories";
+import ProductCard from "../../components/ProductCard/ProductCard";
+import Footer from "../../components/Footer/Footer";
+
 function Home() {
   return (
-    <div className="container mt-5">
-      <h1>Welcome to ShopSmart AI</h1>
-      <p>Your Smart Shopping Destination</p>
-    </div>
+    <>
+      <Hero />
+      <SearchBar />
+      <Categories />
+      <ProductCard />
+      <Footer />
+    </>
   );
 }
 
 export default Home;
-
-
-
