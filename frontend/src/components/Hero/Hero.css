@@ -1,5 +1,5 @@
 .hero{
-    height:85vh;
+    height:70vh;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -9,8 +9,7 @@
 }
 
 .hero h1{
-    font-size:55px;
-    margin-bottom:20px;
+    color:white;
 }
 
 .hero p{
