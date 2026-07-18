@@ -9,13 +9,14 @@ import Register from "./pages/Register/Register";
 import Cart from "./pages/Cart/Cart";
 import Wishlist from "./pages/Wishlist/Wishlist";
 import Profile from "./pages/Profile/Profile";
-
+import ProductDetails from "./pages/ProductDetails/ProductDetails";
 function App() {
   return (
     <>
       <Navbar />
 
       <Routes>
+        <Route path="/product/:id" element={<ProductDetails />} />
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products />} />
         <Route path="/login" element={<Login />} />

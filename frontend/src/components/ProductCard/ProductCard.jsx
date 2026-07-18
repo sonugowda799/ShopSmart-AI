@@ -1,6 +1,6 @@
 import "./ProductCard.css";
 import products from "../../data/products";
-
+import { Link } from "react-router-dom";
 function ProductCard() {
   return (
     <section className="products">
@@ -11,7 +11,11 @@ function ProductCard() {
           <div className="card" key={product.id}>
             <div className="emoji">{product.image}</div>
 
-            <h3>{product.name}</h3>
+            <h3><h3>
+  <Link to={`/product/${product.id}`}>
+    {product.name}
+  </Link>
+</h3></h3>
 
             <p>{"⭐".repeat(product.rating)}</p>
 
