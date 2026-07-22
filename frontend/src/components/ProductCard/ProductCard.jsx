@@ -14,13 +14,12 @@ function ProductCard() {
       <div className="product-grid">
         {products.map((product) => (
           <div className="card" key={product.id}>
-
             <img
               src={product.image}
               alt={product.name}
               className="product-image"
             />
-         <div className="emoji">{product.image}</div>
+
             <h3>
               <Link to={`/product/${product.id}`}>
                 {product.name}
@@ -34,7 +33,6 @@ function ProductCard() {
             <button onClick={() => addToCart(product)}>
               Add to Cart
             </button>
-
           </div>
         ))}
       </div>

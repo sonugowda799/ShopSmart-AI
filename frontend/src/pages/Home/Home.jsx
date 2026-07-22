@@ -2,7 +2,6 @@ import Hero from "../../components/Hero/Hero";
 import SearchBar from "../../components/SearchBar/SearchBar";
 import Categories from "../../components/Categories/Categories";
 import ProductCard from "../../components/ProductCard/ProductCard";
-import Footer from "../../components/Footer/Footer";
 
 function Home() {
   return (
@@ -11,7 +10,6 @@ function Home() {
       <SearchBar />
       <Categories />
       <ProductCard />
-      <Footer />
     </>
   );
 }
