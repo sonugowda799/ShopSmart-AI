@@ -8,6 +8,7 @@ const products = [
     price: 79999,
     image: iphone,
     rating: 5,
+    category: "Electronics",
   },
   {
     id: 2,
@@ -15,6 +16,7 @@ const products = [
     price: 2999,
     image: shoes,
     rating: 4,
+    category: "Shoes",
   },
 ];
 

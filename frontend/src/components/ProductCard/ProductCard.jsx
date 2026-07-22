@@ -31,7 +31,7 @@ function ProductCard() {
             <h4>₹{product.price}</h4>
 
             <button onClick={() => addToCart(product)}>
-              Add to Cart
+              🛒 Add to Cart
             </button>
           </div>
         ))}
